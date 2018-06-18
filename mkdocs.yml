@@ -1,0 +1,59 @@
+site_name: sample
+site_description: description
+site_author: harumo
+
+# the color is changed when mkdocs build
+theme: 
+  name: 'material'
+  palette:
+   primary: 'indigo'
+   acent:   'indigo'
+
+copyright: Copyright (c) 2018
+
+
+markdown_extensions:
+- extra
+- abbr
+- attr_list
+- def_list
+- fenced_code
+- footnotes
+- tables
+- smart_strong
+- admonition
+- codehilite
+- headerid
+- meta
+- nl2br
+- sane_lists
+- toc
+- wikilinks
+#pymdown extension
+- pymdownx.arithmatex
+- pymdownx.betterem:
+    smart_enable: all
+- pymdownx.caret
+- pymdownx.critic
+- pymdownx.details
+- pymdownx.emoji:
+    emoji_generator: !!python/name:pymdownx.emoji.to_svg
+- pymdownx.inlinehilite
+- pymdownx.magiclink
+- pymdownx.mark
+- pymdownx.smartsymbols
+- pymdownx.superfences
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.tilde
+- fontawesome_markdown
+
+extra_javascript:
+ - 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+ - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra_css:
+ - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+ - "custom.css"
+
+ 
