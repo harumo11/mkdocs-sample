@@ -1,0 +1,14 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "sample\n\n\n\n\nNote\n\n\nthis is a sample mkdocs.yml\n\n\n\n\n\n\n\n\\frac{x}{e^{i\\pi}}\n\n\n\n\n\\frac{x}{e^{i\\pi}}",
+            "title": "sample"
+        },
+        {
+            "location": "/#sample",
+            "text": "Note  this is a sample mkdocs.yml    \n\\frac{x}{e^{i\\pi}}  \n\\frac{x}{e^{i\\pi}}",
+            "title": "sample"
+        }
+    ]
+}
